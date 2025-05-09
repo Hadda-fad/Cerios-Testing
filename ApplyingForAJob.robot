@@ -28,9 +28,8 @@ Verifying ability to apply for a job
     ${checkboxes}=    Get WebElements    xpath=//input[@type="checkbox"]
     FOR    ${checkbox}    IN    @{checkboxes}
         ${value}=    Get Element Attribute    ${checkbox}    value
-        Run Keyword If    '${value}' == 'Valori'    Select Checkbox    ${checkbox}
+        Run Keyword If    '${value}' == 'Salves'    Select Checkbox    ${checkbox}
     END
-
 
 
     Sleep           2s
