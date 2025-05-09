@@ -1,6 +1,6 @@
 *** Settings ***
-Library     SeleniumLibrary
-Documentation  General links functionality
+Library         SeleniumLibrary
+Documentation   General links functionality
 
 
 *** Variables ***
