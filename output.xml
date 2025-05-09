@@ -1,93 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.12.4 on darwin)" generated="2025-05-09T18:37:54.211726" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.12.4 on darwin)" generated="2025-05-09T19:34:17.024882" rpa="false" schemaversion="5">
 <suite id="s1" name="ApplyingForAJob" source="/Users/fadihaddad/Desktop/test/Valori /Valori Project/Tests/ApplyingForAJob.robot">
 <test id="s1-t1" name="Verifying ability to apply for a job" line="12">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-05-09T18:37:54.264288" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
+<msg time="2025-05-09T19:34:17.080453" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
 <arg>${BASE_URL}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-05-09T18:37:54.264170" elapsed="1.504436"/>
+<status status="PASS" start="2025-05-09T19:34:17.080320" elapsed="1.658306"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-05-09T18:37:55.769104" elapsed="0.379735"/>
+<status status="PASS" start="2025-05-09T19:34:18.739035" elapsed="0.378999"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-09T18:37:58.151821" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-09T19:34:21.119908" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-09T18:37:56.149002" elapsed="2.003137"/>
+<status status="PASS" start="2025-05-09T19:34:19.118205" elapsed="2.002267"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-09T18:37:58.153366" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
+<msg time="2025-05-09T19:34:21.123330" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
 <arg>Alle cookies toestaan</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-09T18:37:58.152699" elapsed="0.076330"/>
+<status status="PASS" start="2025-05-09T19:34:21.121489" elapsed="0.073324"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-09T18:38:00.231648" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-09T19:34:23.195913" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-09T18:37:58.229210" elapsed="2.003079"/>
+<status status="PASS" start="2025-05-09T19:34:21.194965" elapsed="2.001489"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-09T18:38:00.234432" level="INFO">Clicking element 'xpath=//div[text()="Vacatures"]'.</msg>
+<msg time="2025-05-09T19:34:23.198550" level="INFO">Clicking element 'xpath=//div[text()="Vacatures"]'.</msg>
 <arg>xpath=//div[text()="Vacatures"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-09T18:38:00.233458" elapsed="0.408854"/>
+<status status="PASS" start="2025-05-09T19:34:23.197590" elapsed="0.417255"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-09T18:38:02.644232" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-09T19:34:25.617854" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-09T18:38:00.642457" elapsed="2.002342"/>
+<status status="PASS" start="2025-05-09T19:34:23.615030" elapsed="2.003397"/>
 </kw>
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2025-05-09T18:38:02.665888" level="INFO">Current page contains text 'carriére in ontwikkelling'.</msg>
+<msg time="2025-05-09T19:34:25.642676" level="INFO">Current page contains text 'carriére in ontwikkelling'.</msg>
 <arg>carriére in ontwikkelling</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2025-05-09T18:38:02.645924" elapsed="0.020048"/>
+<status status="PASS" start="2025-05-09T19:34:25.619487" elapsed="0.023275"/>
 </kw>
 <kw name="Scroll Element Into View" owner="SeleniumLibrary">
 <arg>//*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div</arg>
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2025-05-09T18:38:02.666186" elapsed="0.277992"/>
+<status status="PASS" start="2025-05-09T19:34:25.642965" elapsed="0.277835"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-09T18:38:04.945510" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-09T19:34:27.923764" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-09T18:38:02.944483" elapsed="2.001097"/>
+<status status="PASS" start="2025-05-09T19:34:25.921119" elapsed="2.002816"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-09T18:38:04.945833" level="INFO">Clicking element '//*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div'.</msg>
+<msg time="2025-05-09T19:34:27.924309" level="INFO">Clicking element '//*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div'.</msg>
 <arg>//*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-09T18:38:04.945720" elapsed="0.037315"/>
+<status status="PASS" start="2025-05-09T19:34:27.924155" elapsed="0.046834"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-09T18:38:06.983652" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-09T19:34:29.972514" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-09T18:38:04.983192" elapsed="2.001025"/>
+<status status="PASS" start="2025-05-09T19:34:27.971130" elapsed="2.001948"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-05-09T19:34:29.975140" level="INFO">Selecting checkbox '//*[@id="checkbox-2-0"]'.</msg>
+<msg time="2025-05-09T19:34:31.266104" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-20.png"&gt;&lt;img src="selenium-screenshot-20.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-05-09T19:34:31.266256" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input type="checkbox" id="checkbox-2-0" name="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"&gt; is not clickable at point (98, 315). Other element would receive the click: &lt;label class="w-checkbox form_checkbox"&gt;...&lt;/label&gt;
+  (Session info: chrome=136.0.7103.93)
+Stacktrace:
+0   chromedriver                        0x00000001052b83bc cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001052b0684 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x0000000104dedfbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x0000000104e3ad20 cxxbridge1$string$len + 404864
+4   chromedriver                        0x0000000104e3928c cxxbridge1$string$len + 398060
+5   chromedriver                        0x0000000104e370a0 cxxbridge1$string$len + 389376
+6   chromedriver                        0x0000000104e3649c cxxbridge1$string$len + 386300
+7   chromedriver                        0x0000000104e2af14 cxxbridge1$string$len + 339828
+8   chromedriver                        0x0000000104e2a9a0 cxxbridge1$string$len + 338432
+9   chromedriver                        0x0000000104e76044 cxxbridge1$string$len + 647332
+10  chromedriver                        0x0000000104e293f8 cxxbridge1$string$len + 332888
+11  chromedriver                        0x000000010527c7e0 cxxbridge1$str$ptr + 2585200
+12  chromedriver                        0x000000010527fab0 cxxbridge1$str$ptr + 2598208
+13  chromedriver                        0x000000010525ddb4 cxxbridge1$str$ptr + 2459716
+14  chromedriver                        0x0000000105280328 cxxbridge1$str$ptr + 2600376
+15  chromedriver                        0x000000010524f640 cxxbridge1$str$ptr + 2400464
+16  chromedriver                        0x00000001052a028c cxxbridge1$str$ptr + 2731292
+17  chromedriver                        0x00000001052a0418 cxxbridge1$str$ptr + 2731688
+18  chromedriver                        0x00000001052b02d0 cxxbridge1$str$ptr + 2796896
+19  libsystem_pthread.dylib             0x00000001b2cb226c _pthread_start + 148
+20  libsystem_pthread.dylib             0x00000001b2cad08c thread_start + 8
+</msg>
+<arg>//*[@id="checkbox-2-0"]</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="FAIL" start="2025-05-09T19:34:29.974300" elapsed="1.292903">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input type="checkbox" id="checkbox-2-0" name="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"&gt; is not clickable at point (98, 315). Other element would receive the click: &lt;label class="w-checkbox form_checkbox"&gt;...&lt;/label&gt;
+  (Session info: chrome=136.0.7103.93)
+Stacktrace:
+0   chromedriver                        0x00000001052b83bc cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001052b0684 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x0000000104dedfbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x0000000104e3ad20 cxxbridge1$string$len + 404864
+4   chromedriver                        0x0000000104e3928c cxxbridge1$string$len + 398060
+5   chromedriver                        0x0000000104e370a0 cxxbridge1$string$len + 389376
+6   chromedriver                        0x0000000104e3649c cxxbridge1$strin...
+    [ Message content over the limit has been removed. ]
+...er                        0x0000000104e293f8 cxxbridge1$string$len + 332888
+11  chromedriver                        0x000000010527c7e0 cxxbridge1$str$ptr + 2585200
+12  chromedriver                        0x000000010527fab0 cxxbridge1$str$ptr + 2598208
+13  chromedriver                        0x000000010525ddb4 cxxbridge1$str$ptr + 2459716
+14  chromedriver                        0x0000000105280328 cxxbridge1$str$ptr + 2600376
+15  chromedriver                        0x000000010524f640 cxxbridge1$str$ptr + 2400464
+16  chromedriver                        0x00000001052a028c cxxbridge1$str$ptr + 2731292
+17  chromedriver                        0x00000001052a0418 cxxbridge1$str$ptr + 2731688
+18  chromedriver                        0x00000001052b02d0 cxxbridge1$str$ptr + 2796896
+19  libsystem_pthread.dylib             0x00000001b2cb226c _pthread_start + 148
+20  libsystem_pthread.dylib             0x00000001b2cad08c thread_start + 8</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-05-09T19:34:31.267370" elapsed="0.000017"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>Resultaten tonen</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-05-09T19:34:31.267443" elapsed="0.000010"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-05-09T19:34:31.267494" elapsed="0.000008"/>
 </kw>
 <doc>This test case checks the "Applying for a job" functionality</doc>
 <tag>Applying</tag>
-<status status="PASS" start="2025-05-09T18:37:54.263732" elapsed="12.721518"/>
+<status status="FAIL" start="2025-05-09T19:34:17.079839" elapsed="14.187774">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input type="checkbox" id="checkbox-2-0" name="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"&gt; is not clickable at point (98, 315). Other element would receive the click: &lt;label class="w-checkbox form_checkbox"&gt;...&lt;/label&gt;
+  (Session info: chrome=136.0.7103.93)
+Stacktrace:
+0   chromedriver                        0x00000001052b83bc cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001052b0684 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x0000000104dedfbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x0000000104e3ad20 cxxbridge1$string$len + 404864
+4   chromedriver                        0x0000000104e3928c cxxbridge1$string$len + 398060
+5   chromedriver                        0x0000000104e370a0 cxxbridge1$string$len + 389376
+6   chromedriver                        0x0000000104e3649c cxxbridge1$strin...
+    [ Message content over the limit has been removed. ]
+...er                        0x0000000104e293f8 cxxbridge1$string$len + 332888
+11  chromedriver                        0x000000010527c7e0 cxxbridge1$str$ptr + 2585200
+12  chromedriver                        0x000000010527fab0 cxxbridge1$str$ptr + 2598208
+13  chromedriver                        0x000000010525ddb4 cxxbridge1$str$ptr + 2459716
+14  chromedriver                        0x0000000105280328 cxxbridge1$str$ptr + 2600376
+15  chromedriver                        0x000000010524f640 cxxbridge1$str$ptr + 2400464
+16  chromedriver                        0x00000001052a028c cxxbridge1$str$ptr + 2731292
+17  chromedriver                        0x00000001052a0418 cxxbridge1$str$ptr + 2731688
+18  chromedriver                        0x00000001052b02d0 cxxbridge1$str$ptr + 2796896
+19  libsystem_pthread.dylib             0x00000001b2cb226c _pthread_start + 148
+20  libsystem_pthread.dylib             0x00000001b2cad08c thread_start + 8</status>
 </test>
 <doc>Applying For A Job Functionality</doc>
-<status status="PASS" start="2025-05-09T18:37:54.212614" elapsed="12.774729"/>
+<status status="FAIL" start="2025-05-09T19:34:17.025860" elapsed="14.242604"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">Applying</stat>
+<stat pass="0" fail="1" skip="0">Applying</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="ApplyingForAJob">ApplyingForAJob</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="ApplyingForAJob">ApplyingForAJob</stat>
 </suite>
 </statistics>
 <errors>
