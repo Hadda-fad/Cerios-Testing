@@ -5,7 +5,7 @@ Documentation  General links functionality
 
 *** Variables ***
 ${BASE_URL}    https://cerios.nl
-${BROWSER}     Chrome
+${BROWSER}     gc
 
 
 *** Test Cases ***
