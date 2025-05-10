@@ -57,7 +57,8 @@ Verifying ability to apply for a job
     Sleep                   2s
     Choose file             //*[@id="input-candidate.cv-12"]    /Users/fadihaddad/Desktop/test.txt
     Sleep                   2s
-
+    Scroll Element Into View    //*[@id="tabs--23--panel--1"]/form/div[4]/button
+    Sleep                   2s
 
 
 
