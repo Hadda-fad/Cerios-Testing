@@ -29,8 +29,7 @@ Verifying ability to apply for a job
     Sleep               2s
     FOR    ${checkbox}    IN    @{checkboxes}
            Log      ${checkbox.text}
-     #   ${value}=    Get Element Attribute    ${checkbox}    value
-          Run Keyword If    '${checkbox.text}' == 'Valori'    Select Checkbox    ${checkbox}
+           Run Keyword If    '${checkbox.text}' == 'Valori'    Select Checkbox    ${checkbox}
     END
 
 
