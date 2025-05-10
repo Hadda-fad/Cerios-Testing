@@ -59,7 +59,10 @@ Verifying ability to apply for a job
     Sleep                   2s
     Scroll Element Into View    //*[@id="tabs--23--panel--1"]/form/div[4]/button
     Sleep                   2s
-
-
+    Click Element           //*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[1]/div/fieldset/div/div[1]/label/span[1]
+    Sleep                   2s
+    Click Element           //*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[2]/div/fieldset/div/div[1]/label/span[1]
+    Click Element           //*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[3]/div/fieldset/div/div[1]/label/span[1]
+    Sleep                   3s
 
 
