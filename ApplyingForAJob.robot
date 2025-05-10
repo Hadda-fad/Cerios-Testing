@@ -25,10 +25,12 @@ Verifying ability to apply for a job
     Click Element               //*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div
     Sleep                       2s
 
-    ${checkboxes}=    Get WebElements    xpath=//input[@type="checkbox"]
+    ${checkboxes}=    Get WebElements    css:.w-form-label
+    Sleep               2s
     FOR    ${checkbox}    IN    @{checkboxes}
-        ${value}=    Get Element Attribute    ${checkbox}    value
-        Run Keyword If    '${value}' == 'Salves'    Select Checkbox    ${checkbox}
+           Log      ${checkbox.text}
+     #   ${value}=    Get Element Attribute    ${checkbox}    value
+          Run Keyword If    '${checkbox.text}' == 'Valori'    Select Checkbox    ${checkbox}
     END
 
 
