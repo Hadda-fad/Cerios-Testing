@@ -41,10 +41,12 @@ Verifying ability to apply for a job
     #Switch Window    handle=${handles}[-1]
 
     Sleep                   2s
-    #To make sure to continue automation on the newly opened tab
+    #To make sure to continue automation on the newly opened tab:
     Switch window           NEW
     Page should contain     Vacature details
-
+    Click Button                Alles accepteren
+    Sleep                   2s
+    Click element           //*[@id="tabs--23--tab--1"]
     Sleep           3s
 
 
