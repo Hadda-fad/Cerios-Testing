@@ -44,10 +44,19 @@ Verifying ability to apply for a job
     #To make sure to continue automation on the newly opened tab:
     Switch window           NEW
     Page should contain     Vacature details
-    Click Button                Alles accepteren
+    Click Button            Alles accepteren
     Sleep                   2s
     Click element           //*[@id="tabs--23--tab--1"]
-    Sleep           3s
+    Sleep                   3s
+    Input Text              //*[@id="input-candidate.name-3"]   Fadi Haddad
+    Input Text              //*[@id="input-candidate.email-4"]  fadi_nwvg@live.nl
+    Sleep                   2s
+    Input Text              //*[@id="input-candidate.phone-5"]  632486475
+    Sleep                   2s
+    Scroll Element Into View    //*[@id="input-candidate.cv-12"]
+    Sleep                   2s
+    Choose file             //*[@id="input-candidate.cv-12"]    /Users/fadihaddad/Desktop/test.txt
+    Sleep                   2s
 
 
 
