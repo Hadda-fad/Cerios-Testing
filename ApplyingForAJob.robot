@@ -33,7 +33,7 @@ Verifying ability to apply for a job
     END
 
 
-    Sleep           2s
+    Sleep           3s
 
 
 
