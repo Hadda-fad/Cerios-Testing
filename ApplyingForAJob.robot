@@ -5,7 +5,7 @@ Documentation   Applying For A Job Functionality
 
 *** Variables ***
 ${BASE_URL}    https://cerios.nl
-${BROWSER}     gc
+${BROWSER}     chrome
 
 
 *** Test Cases ***
