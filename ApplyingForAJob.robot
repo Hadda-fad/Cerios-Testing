@@ -68,4 +68,5 @@ Verifying ability to apply for a job
     Click Element           //*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[3]/div/fieldset/div/div[1]/label/span[1]
     Sleep                   3s
 
+*** Keywords ***
 
