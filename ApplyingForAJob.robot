@@ -1,9 +1,9 @@
 *** Settings ***
 Library         SeleniumLibrary
 Documentation   Applying For A Job Functionality
-#Test Setup
-#Test Teardown
-Resource       Resource.robot
+Test Setup      Open browser session
+Test Teardown   Close browser session
+Resource        Resource.robot
 
 
 
@@ -14,11 +14,7 @@ Verifying ability to apply for a job at Valori
     [Documentation]             This test case checks the "Applying for a job" functionality
     [Tags]                      Applying
 
-    Open Browser                ${BASE_URL}         ${Browser}
-    Maximize Browser Window
-    Sleep                       2s
-    Click Button                Alle cookies toestaan
-    Sleep                       2s
+
 
     Click element               xpath=//div[text()="Vacatures"]
     Sleep                       2s
@@ -69,7 +65,7 @@ Verifying ability to apply for a job at Valori
     Click Element           //*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[2]/div/fieldset/div/div[1]/label/span[1]
     Click Element           //*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[3]/div/fieldset/div/div[1]/label/span[1]
     Sleep                   3s
-    Close Browser
+
 
 *** Keywords ***
 
