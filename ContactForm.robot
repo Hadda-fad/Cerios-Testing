@@ -7,6 +7,7 @@ Documentation   Contact Form Functionality
 *** Variables ***
 ${BASE_URL}    https://cerios.nl
 ${BROWSER}     gc
+${COOKIES_TOESTAAN}  Alle cookies toestaan
 
 
 *** Test Cases ***
@@ -16,7 +17,7 @@ Verifying Contact Form Functionality
     Open Browser                ${BASE_URL}         ${Browser}
     Maximize Browser Window
     Sleep                       2s
-    Click Button                Alle cookies toestaan
+    Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
     Click element               xpath=//div[text()="Contact"]
     Page should contain         Stuur ons een bericht
