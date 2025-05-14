@@ -2,7 +2,7 @@
 Library         SeleniumLibrary
 Documentation   General links functionality
 #Test Setup
-#Test Teardown
+Test Teardown  Close browser session
 Resource       Resource.robot
 
 
@@ -22,7 +22,7 @@ Verifying "Wat we doen" link
     Page should contain         Expertises
     Sleep                       2s
 
-    Close Browser
+
 
 Verifying "Vacatures" link
     [Documentation]             This test case checks the "Vacatures" link  functionality
@@ -38,7 +38,7 @@ Verifying "Vacatures" link
     Page should contain         carriére in ontwikkelling
     Sleep                       2s
 
-    Close Browser
+
 
 Verifying "Academy" link
     [Documentation]             This test case checks the "Academy" link  functionality
@@ -54,7 +54,7 @@ Verifying "Academy" link
     Page should contain         Cerios Academy
     Sleep                       2s
 
-    Close Browser
+
 
 Verifying "Over Cerios" link
     [Documentation]             This test case checks the "Over Cerios" link  functionality
@@ -70,7 +70,7 @@ Verifying "Over Cerios" link
     Page should contain         Wij zijn Cerios
     Sleep                       2s
 
-    Close Browser
+
 
 
 Verifying "Contact" link
@@ -87,7 +87,7 @@ Verifying "Contact" link
     Page should contain         Stuur ons een bericht
     Sleep                       2s
 
-    Close Browser
+
 
 
 *** Keywords ***

@@ -1,158 +1,337 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.12.4 on darwin)" generated="2025-05-14T15:07:23.308173" rpa="false" schemaversion="5">
-<suite id="s1" name="ContactForm" source="/Users/fadihaddad/Desktop/test/Valori /Valori Project/Tests/ContactForm.robot">
-<test id="s1-t1" name="Verifying Contact Form Functionality" line="13">
+<robot generator="Robot 7.0.1 (Python 3.12.4 on darwin)" generated="2025-05-14T15:22:56.600863" rpa="false" schemaversion="5">
+<suite id="s1" name="GeneralLinks" source="/Users/fadihaddad/Desktop/test/Valori /Valori Project/Tests/GeneralLinks.robot">
+<test id="s1-t1" name="Verifying &quot;Wat we doen&quot; link" line="12">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-05-14T15:07:23.362643" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
+<msg time="2025-05-14T15:22:56.668022" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
 <arg>${BASE_URL}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-05-14T15:07:23.362522" elapsed="1.569502"/>
+<status status="PASS" start="2025-05-14T15:22:56.667909" elapsed="1.530894"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-05-14T15:07:24.932426" elapsed="0.380408"/>
+<status status="PASS" start="2025-05-14T15:22:58.199177" elapsed="0.372018"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T15:07:27.314817" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-14T15:23:00.572741" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T15:07:25.312991" elapsed="2.002437"/>
+<status status="PASS" start="2025-05-14T15:22:58.571373" elapsed="2.001974"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-14T15:07:27.318053" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
+<msg time="2025-05-14T15:23:00.576408" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
 <arg>${COOKIES_TOESTAAN}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T15:07:27.316741" elapsed="0.067293"/>
+<status status="PASS" start="2025-05-14T15:23:00.574424" elapsed="0.068964"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T15:07:29.385311" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-14T15:23:02.645795" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T15:07:27.384182" elapsed="2.001705"/>
+<status status="PASS" start="2025-05-14T15:23:00.643579" elapsed="2.002703"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-14T15:07:29.387992" level="INFO">Clicking element 'xpath=//div[text()="Contact"]'.</msg>
-<arg>xpath=//div[text()="Contact"]</arg>
+<msg time="2025-05-14T15:23:02.648038" level="INFO">Clicking element 'xpath=//div[text()="Wat we doen"]'.</msg>
+<arg>xpath=//div[text()="Wat we doen"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T15:07:29.387008" elapsed="0.339383"/>
+<status status="PASS" start="2025-05-14T15:23:02.647239" elapsed="0.060397"/>
 </kw>
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2025-05-14T15:07:29.736680" level="INFO">Current page contains text 'Stuur ons een bericht'.</msg>
-<arg>Stuur ons een bericht</arg>
+<msg time="2025-05-14T15:23:02.721010" level="INFO">Current page contains text 'Expertises'.</msg>
+<arg>Expertises</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2025-05-14T15:07:29.726536" elapsed="0.010200"/>
+<status status="PASS" start="2025-05-14T15:23:02.707818" elapsed="0.013250"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T15:07:31.737734" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-14T15:23:04.722838" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T15:07:29.736864" elapsed="2.001421"/>
+<status status="PASS" start="2025-05-14T15:23:02.721210" elapsed="2.002190"/>
 </kw>
-<kw name="Scroll Element Into View" owner="SeleniumLibrary">
-<arg>//*[@id="name"]</arg>
-<doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2025-05-14T15:07:31.739558" elapsed="0.287119"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T15:07:34.027776" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T15:07:32.027147" elapsed="2.000831"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-14T15:07:34.028636" level="INFO">Typing text 'Fadi' into text field '//*[@id="name"]'.</msg>
-<arg>//*[@id="name"]</arg>
-<arg>Fadi</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T15:07:34.028350" elapsed="0.068142"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T15:07:36.097122" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T15:07:34.096633" elapsed="2.001043"/>
-</kw>
-<kw name="Scroll Element Into View" owner="SeleniumLibrary">
-<arg>//*[@id="company"]</arg>
-<doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2025-05-14T15:07:36.098831" elapsed="0.282296"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T15:07:38.383326" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T15:07:36.381265" elapsed="2.002616"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-14T15:07:38.385510" level="INFO">Typing text 'Test' into text field '//*[@id="company"]'.</msg>
-<arg>//*[@id="company"]</arg>
-<arg>Test</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T15:07:38.384816" elapsed="0.064335"/>
-</kw>
-<kw name="Scroll Element Into View" owner="SeleniumLibrary">
-<arg>//*[@id="email"]</arg>
-<doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2025-05-14T15:07:38.449295" elapsed="0.274743"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T15:07:40.727468" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T15:07:38.724483" elapsed="2.003536"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-14T15:07:40.730119" level="INFO">Typing text 'test@test.nl' into text field '//*[@id="email"]'.</msg>
-<arg>//*[@id="email"]</arg>
-<arg>test@test.nl</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T15:07:40.729224" elapsed="0.052715"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T15:07:42.782952" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T15:07:40.782108" elapsed="2.001004"/>
-</kw>
-<kw name="Scroll Element Into View" owner="SeleniumLibrary">
-<arg>//*[@id="myphone"]</arg>
-<doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2025-05-14T15:07:42.783424" elapsed="0.276478"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-14T15:07:43.061491" level="INFO">Typing text '123456789' into text field '//*[@id="myphone"]'.</msg>
-<arg>//*[@id="myphone"]</arg>
-<arg>123456789</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T15:07:43.060852" elapsed="0.058930"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T15:07:45.121389" level="INFO">Slept 2 seconds.</msg>
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T15:07:43.119936" elapsed="2.001991"/>
-</kw>
+<kw name="Close browser session" owner="Resource" type="TEARDOWN">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-05-14T15:07:45.122957" elapsed="0.084294"/>
+<status status="PASS" start="2025-05-14T15:23:04.727768" elapsed="0.082966"/>
 </kw>
-<doc>This test case checks the "Contact Form" functionality</doc>
-<tag>Contact Form</tag>
-<status status="PASS" start="2025-05-14T15:07:23.362089" elapsed="21.845347"/>
+<status status="PASS" start="2025-05-14T15:23:04.727041" elapsed="0.083786"/>
+</kw>
+<doc>This test case checks the "Wat we doen" link  functionality</doc>
+<tag>General links</tag>
+<status status="PASS" start="2025-05-14T15:22:56.667489" elapsed="8.143423"/>
 </test>
-<doc>Contact Form Functionality</doc>
-<status status="PASS" start="2025-05-14T15:07:23.309229" elapsed="21.898521"/>
+<test id="s1-t2" name="Verifying &quot;Vacatures&quot; link" line="27">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:04.811591" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
+<arg>${BASE_URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-14T15:23:04.811430" elapsed="1.547391"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-05-14T15:23:06.359139" elapsed="0.386191"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:08.746648" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:06.745474" elapsed="2.001804"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:08.749790" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
+<arg>${COOKIES_TOESTAAN}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T15:23:08.748448" elapsed="0.073166"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:10.823137" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:08.821766" elapsed="2.001907"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:10.825904" level="INFO">Clicking element 'xpath=//div[text()="Vacatures"]'.</msg>
+<arg>xpath=//div[text()="Vacatures"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T15:23:10.824817" elapsed="0.463507"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:13.291072" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:11.288465" elapsed="2.003154"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:13.321051" level="INFO">Current page contains text 'carriére in ontwikkelling'.</msg>
+<arg>carriére in ontwikkelling</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-05-14T15:23:13.292732" elapsed="0.028451"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:15.324048" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:13.321507" elapsed="2.002617"/>
+</kw>
+<kw name="Close browser session" owner="Resource" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-14T15:23:15.324626" elapsed="0.077814"/>
+</kw>
+<status status="PASS" start="2025-05-14T15:23:15.324434" elapsed="0.078080"/>
+</kw>
+<doc>This test case checks the "Vacatures" link  functionality</doc>
+<tag>General links</tag>
+<status status="PASS" start="2025-05-14T15:23:04.811130" elapsed="10.591437"/>
+</test>
+<test id="s1-t3" name="Verifying &quot;Academy&quot; link" line="43">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:15.403076" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
+<arg>${BASE_URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-14T15:23:15.402952" elapsed="1.416722"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-05-14T15:23:16.820190" elapsed="0.374865"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:19.196011" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:17.195258" elapsed="2.001331"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:19.198739" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
+<arg>${COOKIES_TOESTAAN}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T15:23:19.197674" elapsed="0.075145"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:21.273804" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:19.272972" elapsed="2.001382"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:21.276725" level="INFO">Clicking element 'xpath=//div[text()="Academy"]'.</msg>
+<arg>xpath=//div[text()="Academy"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T15:23:21.275852" elapsed="0.446588"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:23.724432" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:21.722600" elapsed="2.002396"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:23.752027" level="INFO">Current page contains text 'Cerios Academy'.</msg>
+<arg>Cerios Academy</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-05-14T15:23:23.726059" elapsed="0.026124"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:25.754733" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:23.752525" elapsed="2.002721"/>
+</kw>
+<kw name="Close browser session" owner="Resource" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-14T15:23:25.757775" elapsed="0.083520"/>
+</kw>
+<status status="PASS" start="2025-05-14T15:23:25.756844" elapsed="0.084535"/>
+</kw>
+<doc>This test case checks the "Academy" link  functionality</doc>
+<tag>General links</tag>
+<status status="PASS" start="2025-05-14T15:23:15.402736" elapsed="10.438713"/>
+</test>
+<test id="s1-t4" name="Verifying &quot;Over Cerios&quot; link" line="59">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:25.842086" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
+<arg>${BASE_URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-14T15:23:25.841936" elapsed="1.304561"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-05-14T15:23:27.146910" elapsed="0.372467"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:29.521417" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:27.519534" elapsed="2.002373"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:29.523830" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
+<arg>${COOKIES_TOESTAAN}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T15:23:29.522790" elapsed="0.075580"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:31.600506" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:29.598517" elapsed="2.002527"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:31.603279" level="INFO">Clicking element 'xpath=//div[text()="Over Cerios"]'.</msg>
+<arg>xpath=//div[text()="Over Cerios"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T15:23:31.602391" elapsed="0.057828"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:33.662114" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:31.660372" elapsed="2.002239"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:33.687434" level="INFO">Current page contains text 'Wij zijn Cerios'.</msg>
+<arg>Wij zijn Cerios</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-05-14T15:23:33.663779" elapsed="0.023755"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:35.688493" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:33.687794" elapsed="2.001249"/>
+</kw>
+<kw name="Close browser session" owner="Resource" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-14T15:23:35.692206" elapsed="0.081975"/>
+</kw>
+<status status="PASS" start="2025-05-14T15:23:35.690944" elapsed="0.083321"/>
+</kw>
+<doc>This test case checks the "Over Cerios" link  functionality</doc>
+<tag>General links</tag>
+<status status="PASS" start="2025-05-14T15:23:25.841647" elapsed="9.932685"/>
+</test>
+<test id="s1-t5" name="Verifying &quot;Contact&quot; link" line="76">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:35.774966" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
+<arg>${BASE_URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-14T15:23:35.774817" elapsed="1.620277"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-05-14T15:23:37.395452" elapsed="0.376900"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:39.774579" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:37.772492" elapsed="2.002630"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:39.777488" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
+<arg>${COOKIES_TOESTAAN}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T15:23:39.776143" elapsed="0.072194"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:41.851100" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:39.848473" elapsed="2.003668"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:41.853805" level="INFO">Clicking element 'xpath=//div[text()="Contact"]'.</msg>
+<arg>xpath=//div[text()="Contact"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-14T15:23:41.853089" elapsed="0.407692"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:44.263480" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:42.260935" elapsed="2.003126"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-05-14T15:23:44.287430" level="INFO">Current page contains text 'Stuur ons een bericht'.</msg>
+<arg>Stuur ons een bericht</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-05-14T15:23:44.265115" elapsed="0.022393"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-14T15:23:46.287934" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-14T15:23:44.287704" elapsed="2.000312"/>
+</kw>
+<kw name="Close browser session" owner="Resource" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-14T15:23:46.288592" elapsed="0.077940"/>
+</kw>
+<status status="PASS" start="2025-05-14T15:23:46.288380" elapsed="0.078224"/>
+</kw>
+<doc>This test case checks the "Contact" link  functionality</doc>
+<tag>General links</tag>
+<status status="PASS" start="2025-05-14T15:23:35.774529" elapsed="10.592128"/>
+</test>
+<doc>General links functionality</doc>
+<status status="PASS" start="2025-05-14T15:22:56.601404" elapsed="49.765564"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">Contact Form</stat>
+<stat pass="5" fail="0" skip="0">General links</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="ContactForm">ContactForm</stat>
+<stat pass="5" fail="0" skip="0" id="s1" name="GeneralLinks">GeneralLinks</stat>
 </suite>
 </statistics>
 <errors>

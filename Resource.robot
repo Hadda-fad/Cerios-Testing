@@ -16,4 +16,5 @@ ${COOKIES_TOESTAAN}  Alle cookies toestaan
 
 
 *** Keywords ***
-
+Close browser session
+    Close Browser
