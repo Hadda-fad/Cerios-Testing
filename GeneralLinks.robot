@@ -20,9 +20,11 @@ Verifying "Wat we doen" link
     Sleep                       2s
     Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
+
     Click element               xpath=//div[text()="Wat we doen"]
     Page should contain         Expertises
     Sleep                       2s
+
     Close Browser
 
 Verifying "Vacatures" link
@@ -33,10 +35,12 @@ Verifying "Vacatures" link
     Sleep                       2s
     Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
+
     Click element               xpath=//div[text()="Vacatures"]
     Sleep                       2s
     Page should contain         carriére in ontwikkelling
     Sleep                       2s
+
     Close Browser
 
 Verifying "Academy" link
@@ -47,10 +51,12 @@ Verifying "Academy" link
     Sleep                       2s
     Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
+
     Click element               xpath=//div[text()="Academy"]
     Sleep                       2s
     Page should contain         Cerios Academy
     Sleep                       2s
+
     Close Browser
 
 Verifying "Over Cerios" link
@@ -61,10 +67,12 @@ Verifying "Over Cerios" link
     Sleep                       2s
     Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
+
     Click element               xpath=//div[text()="Over Cerios"]
     Sleep                       2s
     Page should contain         Wij zijn Cerios
     Sleep                       2s
+
     Close Browser
 
 
@@ -76,10 +84,12 @@ Verifying "Contact" link
     Sleep                       2s
     Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
+
     Click element               xpath=//div[text()="Contact"]
     Sleep                       2s
     Page should contain         Stuur ons een bericht
     Sleep                       2s
+
     Close Browser
 
 
