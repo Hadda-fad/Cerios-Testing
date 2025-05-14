@@ -1,9 +1,9 @@
 *** Settings ***
 Library         SeleniumLibrary
 Documentation   General links functionality
-#Test Setup
-Test Teardown  Close browser session
-Resource       Resource.robot
+Test Setup      Open browser session
+Test Teardown   Close browser session
+Resource        Resource.robot
 
 
 
@@ -12,11 +12,6 @@ Resource       Resource.robot
 Verifying "Wat we doen" link
     [Documentation]             This test case checks the "Wat we doen" link  functionality
     [Tags]                      General links
-    Open Browser                ${BASE_URL}         ${Browser}
-    Maximize Browser Window
-    Sleep                       2s
-    Click Button                ${COOKIES_TOESTAAN}
-    Sleep                       2s
 
     Click element               xpath=//div[text()="Wat we doen"]
     Page should contain         Expertises
@@ -27,11 +22,6 @@ Verifying "Wat we doen" link
 Verifying "Vacatures" link
     [Documentation]             This test case checks the "Vacatures" link  functionality
     [Tags]                      General links
-    Open Browser                ${BASE_URL}         ${Browser}
-    Maximize Browser Window
-    Sleep                       2s
-    Click Button                ${COOKIES_TOESTAAN}
-    Sleep                       2s
 
     Click element               xpath=//div[text()="Vacatures"]
     Sleep                       2s
@@ -43,11 +33,6 @@ Verifying "Vacatures" link
 Verifying "Academy" link
     [Documentation]             This test case checks the "Academy" link  functionality
     [Tags]                      General links
-    Open Browser                ${BASE_URL}         ${Browser}
-    Maximize Browser Window
-    Sleep                       2s
-    Click Button                ${COOKIES_TOESTAAN}
-    Sleep                       2s
 
     Click element               xpath=//div[text()="Academy"]
     Sleep                       2s
@@ -59,11 +44,6 @@ Verifying "Academy" link
 Verifying "Over Cerios" link
     [Documentation]             This test case checks the "Over Cerios" link  functionality
     [Tags]                      General links
-    Open Browser                ${BASE_URL}         ${Browser}
-    Maximize Browser Window
-    Sleep                       2s
-    Click Button                ${COOKIES_TOESTAAN}
-    Sleep                       2s
 
     Click element               xpath=//div[text()="Over Cerios"]
     Sleep                       2s
@@ -76,11 +56,6 @@ Verifying "Over Cerios" link
 Verifying "Contact" link
     [Documentation]             This test case checks the "Contact" link  functionality
     [Tags]                      General links
-    Open Browser                ${BASE_URL}         ${Browser}
-    Maximize Browser Window
-    Sleep                       2s
-    Click Button                ${COOKIES_TOESTAAN}
-    Sleep                       2s
 
     Click element               xpath=//div[text()="Contact"]
     Sleep                       2s

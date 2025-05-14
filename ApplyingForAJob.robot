@@ -13,11 +13,13 @@ Resource       Resource.robot
 Verifying ability to apply for a job at Valori
     [Documentation]             This test case checks the "Applying for a job" functionality
     [Tags]                      Applying
+
     Open Browser                ${BASE_URL}         ${Browser}
     Maximize Browser Window
     Sleep                       2s
     Click Button                Alle cookies toestaan
     Sleep                       2s
+
     Click element               xpath=//div[text()="Vacatures"]
     Sleep                       2s
     Page should contain         carriére in ontwikkelling

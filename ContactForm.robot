@@ -13,11 +13,13 @@ Resource       Resource.robot
 Verifying Contact Form Functionality
     [Documentation]             This test case checks the "Contact Form" functionality
     [Tags]                      Contact Form
+
     Open Browser                ${BASE_URL}         ${Browser}
     Maximize Browser Window
     Sleep                       2s
     Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
+
     Click element               xpath=//div[text()="Contact"]
     Page should contain         Stuur ons een bericht
     Sleep                       2s
