@@ -1,6 +1,8 @@
 *** Settings ***
 Library         SeleniumLibrary
 Documentation   Contact Form Functionality
+#Test Setup
+#Test Teardown
 Resource       Resource.robot
 
 

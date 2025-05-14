@@ -1,6 +1,8 @@
 *** Settings ***
 Library         SeleniumLibrary
 Documentation   General links functionality
+#Test Setup
+#Test Teardown
 Resource       Resource.robot
 
 

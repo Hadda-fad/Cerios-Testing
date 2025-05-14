@@ -1,6 +1,8 @@
 *** Settings ***
 Library         SeleniumLibrary
 Documentation   Applying For A Job Functionality
+#Test Setup
+#Test Teardown
 Resource       Resource.robot
 
 
