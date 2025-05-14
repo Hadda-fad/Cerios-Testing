@@ -1,7 +1,7 @@
 *** Settings ***
 Library         SeleniumLibrary
 Documentation   General links functionality
-#Resource
+Resource       Resource.robot
 
 
 *** Variables ***

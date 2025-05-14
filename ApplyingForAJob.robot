@@ -1,7 +1,7 @@
 *** Settings ***
 Library         SeleniumLibrary
 Documentation   Applying For A Job Functionality
-#Resource
+Resource       Resource.robot
 
 
 *** Variables ***
