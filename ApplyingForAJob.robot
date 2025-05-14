@@ -36,8 +36,7 @@ Verifying ability to apply for a job at Valori
     #Test automation engineer
     Click element       //*[@id="job-overview"]/div/div/div/div/div[4]/div/div/div[1]/div[5]/a
 
-    #${handles}=    Get Window Handles
-    #Switch Window    handle=${handles}[-1]
+
 
     Sleep                   2s
     #To make sure to continue automation on the newly opened tab:
