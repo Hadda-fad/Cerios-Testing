@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       File with reusable keywords and variables
+Documentation       File with reusable variables and keywords
 Library             SeleniumLibrary
 
 
