@@ -1,6 +1,7 @@
 *** Settings ***
 Library         SeleniumLibrary
 Documentation   Applying For A Job Functionality
+#Resource
 
 
 *** Variables ***
@@ -22,6 +23,7 @@ Verifying ability to apply for a job
     Page should contain         carriére in ontwikkelling
     Scroll Element Into View    //*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div
     Sleep                       2s
+    #filter button
     Click Element               //*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div
     Sleep                       2s
 
@@ -35,6 +37,7 @@ Verifying ability to apply for a job
 
     Click Button        Resultaten tonen
     Sleep               2s
+    #Test automation engineer
     Click element       //*[@id="job-overview"]/div/div/div/div/div[4]/div/div/div[1]/div[5]/a
 
     #${handles}=    Get Window Handles

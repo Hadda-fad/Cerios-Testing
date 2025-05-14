@@ -1,6 +1,7 @@
 *** Settings ***
 Library         SeleniumLibrary
 Documentation   Contact Form Functionality
+#Resource
 
 
 *** Variables ***
