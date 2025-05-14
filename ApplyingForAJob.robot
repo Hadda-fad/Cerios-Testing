@@ -14,8 +14,6 @@ Verifying ability to apply for a job at Valori
     [Documentation]             This test case checks the "Applying for a job" functionality
     [Tags]                      Applying
 
-
-
     Click element               xpath=//div[text()="Vacatures"]
     Sleep                       2s
     Page should contain         carriére in ontwikkelling

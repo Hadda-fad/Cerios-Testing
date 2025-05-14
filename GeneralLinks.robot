@@ -6,8 +6,6 @@ Test Teardown   Close browser session
 Resource        Resource.robot
 
 
-
-
 *** Test Cases ***
 Verifying "Wat we doen" link
     [Documentation]             This test case checks the "Wat we doen" link  functionality
@@ -16,8 +14,6 @@ Verifying "Wat we doen" link
     Click element               xpath=//div[text()="Wat we doen"]
     Page should contain         Expertises
     Sleep                       2s
-
-
 
 Verifying "Vacatures" link
     [Documentation]             This test case checks the "Vacatures" link  functionality
@@ -29,7 +25,6 @@ Verifying "Vacatures" link
     Sleep                       2s
 
 
-
 Verifying "Academy" link
     [Documentation]             This test case checks the "Academy" link  functionality
     [Tags]                      General links
@@ -38,7 +33,6 @@ Verifying "Academy" link
     Sleep                       2s
     Page should contain         Cerios Academy
     Sleep                       2s
-
 
 
 Verifying "Over Cerios" link
@@ -52,7 +46,6 @@ Verifying "Over Cerios" link
 
 
 
-
 Verifying "Contact" link
     [Documentation]             This test case checks the "Contact" link  functionality
     [Tags]                      General links
@@ -61,8 +54,6 @@ Verifying "Contact" link
     Sleep                       2s
     Page should contain         Stuur ons een bericht
     Sleep                       2s
-
-
 
 
 *** Keywords ***

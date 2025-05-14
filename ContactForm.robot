@@ -7,14 +7,10 @@ Resource        Resource.robot
 
 
 
-
-
 *** Test Cases ***
 Verifying Contact Form Functionality
     [Documentation]             This test case checks the "Contact Form" functionality
     [Tags]                      Contact Form
-
-
 
     Click element               xpath=//div[text()="Contact"]
     Page should contain         Stuur ons een bericht
