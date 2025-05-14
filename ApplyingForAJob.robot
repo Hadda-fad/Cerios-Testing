@@ -24,9 +24,8 @@ Verifying ability to apply for a job at Valori
     Sleep                       2s
 
     ${checkboxes}=    Get WebElements    css:.w-form-label
-    Sleep               2s
+
     FOR    ${checkbox}    IN    @{checkboxes}
-           Log      ${checkbox.text}
            Run Keyword If    '${checkbox.text}' == 'Valori'    Select Checkbox    ${checkbox}
     END
 
