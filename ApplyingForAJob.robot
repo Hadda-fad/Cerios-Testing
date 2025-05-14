@@ -10,7 +10,7 @@ ${BROWSER}     chrome
 
 
 *** Test Cases ***
-Verifying ability to apply for a job
+Verifying ability to apply for a job at Valori
     [Documentation]             This test case checks the "Applying for a job" functionality
     [Tags]                      Applying
     Open Browser                ${BASE_URL}         ${Browser}
