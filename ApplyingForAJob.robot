@@ -6,9 +6,7 @@ Documentation   Applying For A Job Functionality
 Resource       Resource.robot
 
 
-*** Variables ***
-${BASE_URL}    https://cerios.nl
-${BROWSER}     chrome
+
 
 
 *** Test Cases ***

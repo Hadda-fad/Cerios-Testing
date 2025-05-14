@@ -6,10 +6,7 @@ Documentation   Contact Form Functionality
 Resource       Resource.robot
 
 
-*** Variables ***
-${BASE_URL}    https://cerios.nl
-${BROWSER}     gc
-${COOKIES_TOESTAAN}  Alle cookies toestaan
+
 
 
 *** Test Cases ***
