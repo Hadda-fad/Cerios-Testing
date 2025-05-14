@@ -7,7 +7,7 @@ Documentation   General links functionality
 *** Variables ***
 ${BASE_URL}    https://cerios.nl
 ${BROWSER}     gc
-
+${COOKIES_TOESTAAN}  Alle cookies toestaan
 
 *** Test Cases ***
 Verifying "Wat we doen" link
@@ -16,7 +16,7 @@ Verifying "Wat we doen" link
     Open Browser                ${BASE_URL}         ${Browser}
     Maximize Browser Window
     Sleep                       2s
-    Click Button                Alle cookies toestaan
+    Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
     Click element               xpath=//div[text()="Wat we doen"]
     Page should contain         Expertises
@@ -29,7 +29,7 @@ Verifying "Vacatures" link
     Open Browser                ${BASE_URL}         ${Browser}
     Maximize Browser Window
     Sleep                       2s
-    Click Button                Alle cookies toestaan
+    Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
     Click element               xpath=//div[text()="Vacatures"]
     Sleep                       2s
@@ -43,7 +43,7 @@ Verifying "Academy" link
     Open Browser                ${BASE_URL}         ${Browser}
     Maximize Browser Window
     Sleep                       2s
-    Click Button                Alle cookies toestaan
+    Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
     Click element               xpath=//div[text()="Academy"]
     Sleep                       2s
@@ -57,7 +57,7 @@ Verifying "Over Cerios" link
     Open Browser                ${BASE_URL}         ${Browser}
     Maximize Browser Window
     Sleep                       2s
-    Click Button                Alle cookies toestaan
+    Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
     Click element               xpath=//div[text()="Over Cerios"]
     Sleep                       2s
@@ -72,7 +72,7 @@ Verifying "Contact" link
     Open Browser                ${BASE_URL}         ${Browser}
     Maximize Browser Window
     Sleep                       2s
-    Click Button                Alle cookies toestaan
+    Click Button                ${COOKIES_TOESTAAN}
     Sleep                       2s
     Click element               xpath=//div[text()="Contact"]
     Sleep                       2s
