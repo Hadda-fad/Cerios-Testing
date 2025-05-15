@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.12.4 on darwin)" generated="2025-05-14T16:20:32.269679" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.12.4 on darwin)" generated="2025-05-15T16:13:02.361693" rpa="false" schemaversion="5">
 <suite id="s1" name="ApplyingForAJob" source="/Users/fadihaddad/Desktop/test/Valori /Valori Project/Tests/ApplyingForAJob.robot">
 <test id="s1-t1" name="Verifying ability to apply for a job at Valori" line="13">
 <kw name="Open browser session" owner="Resource" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:20:32.336349" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
+<msg time="2025-05-15T16:13:03.050872" level="INFO">Opening browser 'gc' to base url 'https://cerios.nl'.</msg>
 <arg>${BASE_URL}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-05-14T16:20:32.336246" elapsed="1.539689"/>
+<status status="PASS" start="2025-05-15T16:13:03.050745" elapsed="3.198993"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-05-14T16:20:33.876260" elapsed="0.373874"/>
+<status status="PASS" start="2025-05-15T16:13:06.250063" elapsed="0.404195"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:20:36.250921" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:08.656529" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:20:34.250255" elapsed="2.001165"/>
+<status status="PASS" start="2025-05-15T16:13:06.654398" elapsed="2.002679"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:20:36.255029" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
+<msg time="2025-05-15T16:13:08.659988" level="INFO">Clicking button 'Alle cookies toestaan'.</msg>
 <arg>${COOKIES_TOESTAAN}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:20:36.252100" elapsed="0.072528"/>
+<status status="PASS" start="2025-05-15T16:13:08.658260" elapsed="0.076441"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:20:38.325676" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:10.735755" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:20:36.324739" elapsed="2.001537"/>
+<status status="PASS" start="2025-05-15T16:13:08.734806" elapsed="2.001409"/>
 </kw>
-<status status="PASS" start="2025-05-14T16:20:32.335941" elapsed="5.990911"/>
+<status status="PASS" start="2025-05-15T16:13:03.050369" elapsed="7.686354"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:20:38.328683" level="INFO">Clicking element 'xpath=//div[text()="Vacatures"]'.</msg>
+<msg time="2025-05-15T16:13:10.738346" level="INFO">Clicking element 'xpath=//div[text()="Vacatures"]'.</msg>
 <arg>xpath=//div[text()="Vacatures"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:20:38.327945" elapsed="0.434221"/>
+<status status="PASS" start="2025-05-15T16:13:10.737712" elapsed="0.605721"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:20:40.763830" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:13.344570" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:20:38.762404" elapsed="2.001991"/>
+<status status="PASS" start="2025-05-15T16:13:11.343578" elapsed="2.001560"/>
 </kw>
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:20:40.785841" level="INFO">Current page contains text 'carriére in ontwikkelling'.</msg>
+<msg time="2025-05-15T16:13:13.366054" level="INFO">Current page contains text 'carriére in ontwikkelling'.</msg>
 <arg>carriére in ontwikkelling</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2025-05-14T16:20:40.765608" elapsed="0.020325"/>
+<status status="PASS" start="2025-05-15T16:13:13.346251" elapsed="0.019890"/>
 </kw>
 <kw name="Scroll Element Into View" owner="SeleniumLibrary">
 <arg>//*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div</arg>
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2025-05-14T16:20:40.786155" elapsed="0.271930"/>
+<status status="PASS" start="2025-05-15T16:13:13.366332" elapsed="0.271294"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:20:43.060413" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:15.639004" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:20:41.058304" elapsed="2.002285"/>
+<status status="PASS" start="2025-05-15T16:13:13.637896" elapsed="2.001709"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:20:43.061023" level="INFO">Clicking element '//*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div'.</msg>
+<msg time="2025-05-15T16:13:15.641655" level="INFO">Clicking element '//*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div'.</msg>
 <arg>//*[@id="job-overview"]/div/div/div/div/div[3]/div/div[2]/div</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:20:43.060834" elapsed="0.049207"/>
+<status status="PASS" start="2025-05-15T16:13:15.640772" elapsed="0.062731"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:20:45.111503" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:17.704666" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:20:43.110196" elapsed="2.001859"/>
+<status status="PASS" start="2025-05-15T16:13:15.703653" elapsed="2.002358"/>
 </kw>
 <kw name="Get WebElements" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:20:45.128984" level="INFO">${checkboxes} = [&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.153")&gt;, &lt;selenium.webdri...</msg>
+<msg time="2025-05-15T16:13:17.723197" level="INFO">${checkboxes} = [&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.153")&gt;, &lt;selenium.webdri...</msg>
 <var>${checkboxes}</var>
 <arg>css:.w-form-label</arg>
 <doc>Returns a list of WebElement objects matching the ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.113311" elapsed="0.015723"/>
+<status status="PASS" start="2025-05-15T16:13:17.707157" elapsed="0.016096"/>
 </kw>
 <for flavor="IN">
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
 <kw name="Select Checkbox" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:20:45.142279" level="INFO">Selecting checkbox '&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.153")&gt;'.</msg>
+<msg time="2025-05-15T16:13:17.737345" level="INFO">Selecting checkbox '&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.153")&gt;'.</msg>
 <arg>${checkbox}</arg>
 <doc>Selects the checkbox identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.142043" elapsed="0.049770"/>
+<status status="PASS" start="2025-05-15T16:13:17.737182" elapsed="0.050396"/>
 </kw>
 <arg>'${checkbox.text}' == 'Valori'</arg>
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.129679" elapsed="0.062198"/>
+<status status="PASS" start="2025-05-15T16:13:17.724048" elapsed="0.063593"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.153")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.129485" elapsed="0.062414"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.153")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.723819" elapsed="0.066586"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -106,10 +106,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.192061" elapsed="0.004911"/>
+<status status="PASS" start="2025-05-15T16:13:17.790619" elapsed="0.008218"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.154")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.191988" elapsed="0.005035"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.154")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.790534" elapsed="0.008359"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -117,10 +117,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.197164" elapsed="0.004121"/>
+<status status="PASS" start="2025-05-15T16:13:17.799050" elapsed="0.004103"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.155")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.197099" elapsed="0.004238"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.155")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.798977" elapsed="0.004213"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -128,10 +128,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.201487" elapsed="0.004346"/>
+<status status="PASS" start="2025-05-15T16:13:17.803303" elapsed="0.004395"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.156")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.201421" elapsed="0.004457"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.156")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.803250" elapsed="0.004488"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -139,10 +139,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.206009" elapsed="0.004229"/>
+<status status="PASS" start="2025-05-15T16:13:17.807865" elapsed="0.004830"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.157")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.205946" elapsed="0.004334"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.157")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.807809" elapsed="0.004932"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -150,10 +150,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.210468" elapsed="0.005391"/>
+<status status="PASS" start="2025-05-15T16:13:17.812937" elapsed="0.003511"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.158")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.210408" elapsed="0.005499"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.158")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.812874" elapsed="0.003610"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -161,10 +161,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.216044" elapsed="0.004104"/>
+<status status="PASS" start="2025-05-15T16:13:17.816590" elapsed="0.004152"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.159")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.215978" elapsed="0.004211"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.159")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.816541" elapsed="0.004240"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -172,10 +172,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.220313" elapsed="0.004380"/>
+<status status="PASS" start="2025-05-15T16:13:17.820898" elapsed="0.003985"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.160")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.220250" elapsed="0.004482"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.160")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.820842" elapsed="0.004083"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -183,10 +183,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.224848" elapsed="0.003956"/>
+<status status="PASS" start="2025-05-15T16:13:17.825046" elapsed="0.004480"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.161")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.224791" elapsed="0.004056"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.161")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.824987" elapsed="0.004581"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -194,10 +194,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.228968" elapsed="0.004054"/>
+<status status="PASS" start="2025-05-15T16:13:17.829692" elapsed="0.008283"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.162")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.228909" elapsed="0.004149"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.162")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.829633" elapsed="0.008400"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -205,10 +205,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.233168" elapsed="0.006457"/>
+<status status="PASS" start="2025-05-15T16:13:17.838177" elapsed="0.003711"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.163")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.233113" elapsed="0.006562"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.163")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.838108" elapsed="0.003822"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -216,10 +216,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.239814" elapsed="0.004644"/>
+<status status="PASS" start="2025-05-15T16:13:17.842086" elapsed="0.003797"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.164")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.239746" elapsed="0.004758"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.164")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.841998" elapsed="0.003931"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -227,10 +227,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.244638" elapsed="0.004196"/>
+<status status="PASS" start="2025-05-15T16:13:17.846055" elapsed="0.003735"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.165")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.244577" elapsed="0.004305"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.165")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.845992" elapsed="0.003835"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -238,10 +238,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.249020" elapsed="0.003695"/>
+<status status="PASS" start="2025-05-15T16:13:17.849936" elapsed="0.004843"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.166")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.248957" elapsed="0.003803"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.166")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.849883" elapsed="0.004946"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -249,10 +249,10 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.252888" elapsed="0.003653"/>
+<status status="PASS" start="2025-05-15T16:13:17.854965" elapsed="0.004669"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.167")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.252826" elapsed="0.003759"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.167")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.854900" elapsed="0.004786"/>
 </iter>
 <iter>
 <kw name="Run Keyword If" owner="BuiltIn">
@@ -260,185 +260,185 @@
 <arg>Select Checkbox</arg>
 <arg>${checkbox}</arg>
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.256724" elapsed="0.003317"/>
+<status status="PASS" start="2025-05-15T16:13:17.859818" elapsed="0.004062"/>
 </kw>
-<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="c373cad5750563c9a155ed0a782e0a5e", element="f.8A8043C46696C413CB707DAD8DA9100B.d.8097C1C9BA004520878E94ED72F5C72D.e.168")&gt;</var>
-<status status="PASS" start="2025-05-14T16:20:45.256649" elapsed="0.003422"/>
+<var name="${checkbox}">&lt;selenium.webdriver.remote.webelement.WebElement (session="bf8396924c76d1a29d5f902aea3ed7fe", element="f.62B817C14499AA4BD780282EC8027F5A.d.6D97A38429F15D7CEB26F0767699989E.e.168")&gt;</var>
+<status status="PASS" start="2025-05-15T16:13:17.859758" elapsed="0.004169"/>
 </iter>
 <var>${checkbox}</var>
 <value>@{checkboxes}</value>
-<status status="PASS" start="2025-05-14T16:20:45.129255" elapsed="0.130840"/>
+<status status="PASS" start="2025-05-15T16:13:17.723523" elapsed="0.140432"/>
 </for>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:20:45.260296" level="INFO">Clicking button 'Resultaten tonen'.</msg>
+<msg time="2025-05-15T16:13:17.864193" level="INFO">Clicking button 'Resultaten tonen'.</msg>
 <arg>Resultaten tonen</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.260202" elapsed="0.049397"/>
+<status status="PASS" start="2025-05-15T16:13:17.864085" elapsed="0.054349"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:20:47.310756" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:19.919392" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:20:45.309789" elapsed="2.001524"/>
+<status status="PASS" start="2025-05-15T16:13:17.918631" elapsed="2.001249"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:20:47.313388" level="INFO">Clicking element '//*[@id="job-overview"]/div/div/div/div/div[4]/div/div/div[1]/div[5]/a'.</msg>
+<msg time="2025-05-15T16:13:19.922236" level="INFO">Clicking element '//*[@id="job-overview"]/div/div/div/div/div[4]/div/div/div[1]/div[5]/a'.</msg>
 <arg>//*[@id="job-overview"]/div/div/div/div/div[4]/div/div/div[1]/div[5]/a</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:20:47.312382" elapsed="0.087234"/>
+<status status="PASS" start="2025-05-15T16:13:19.921087" elapsed="0.089664"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:20:49.403659" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:22.013129" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:20:47.399846" elapsed="2.004394"/>
+<status status="PASS" start="2025-05-15T16:13:20.010935" elapsed="2.002272"/>
 </kw>
 <kw name="Switch Window" owner="SeleniumLibrary">
 <arg>NEW</arg>
 <doc>Switches to browser window matching ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:20:49.405730" elapsed="0.010051"/>
+<status status="PASS" start="2025-05-15T16:13:22.013438" elapsed="0.006374"/>
 </kw>
 <kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:17.995726" level="INFO">Current page contains text 'Vacature details'.</msg>
+<msg time="2025-05-15T16:13:22.031321" level="INFO">Current page contains text 'Vacature details'.</msg>
 <arg>Vacature details</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2025-05-14T16:20:49.416075" elapsed="28.579734"/>
+<status status="PASS" start="2025-05-15T16:13:22.019932" elapsed="0.011432"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:17.996130" level="INFO">Clicking button 'Alles accepteren'.</msg>
+<msg time="2025-05-15T16:13:22.031568" level="INFO">Clicking button 'Alles accepteren'.</msg>
 <arg>Alles accepteren</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:21:17.995988" elapsed="0.063897"/>
+<status status="PASS" start="2025-05-15T16:13:22.031475" elapsed="0.060456"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:21:20.062324" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:24.094293" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:21:18.060033" elapsed="2.002834"/>
+<status status="PASS" start="2025-05-15T16:13:22.092077" elapsed="2.002723"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:20.064861" level="INFO">Clicking element '//*[@id="tabs--23--tab--1"]'.</msg>
+<msg time="2025-05-15T16:13:24.096479" level="INFO">Clicking element '//*[@id="tabs--23--tab--1"]'.</msg>
 <arg>//*[@id="tabs--23--tab--1"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:21:20.064110" elapsed="0.082002"/>
+<status status="PASS" start="2025-05-15T16:13:24.095696" elapsed="0.079361"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:21:23.147219" level="INFO">Slept 3 seconds.</msg>
+<msg time="2025-05-15T16:13:27.175761" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:21:20.146255" elapsed="3.001517"/>
+<status status="PASS" start="2025-05-15T16:13:24.175197" elapsed="3.001772"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:23.149790" level="INFO">Typing text 'Fadi Haddad' into text field '//*[@id="input-candidate.name-3"]'.</msg>
+<msg time="2025-05-15T16:13:27.178558" level="INFO">Typing text 'Fadi Haddad' into text field '//*[@id="input-candidate.name-3"]'.</msg>
 <arg>//*[@id="input-candidate.name-3"]</arg>
 <arg>Fadi Haddad</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:21:23.148844" elapsed="0.094068"/>
+<status status="PASS" start="2025-05-15T16:13:27.177862" elapsed="0.112982"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:23.243162" level="INFO">Typing text 'fadi_nwvg@live.nl' into text field '//*[@id="input-candidate.email-4"]'.</msg>
+<msg time="2025-05-15T16:13:27.291089" level="INFO">Typing text 'fadi_nwvg@live.nl' into text field '//*[@id="input-candidate.email-4"]'.</msg>
 <arg>//*[@id="input-candidate.email-4"]</arg>
 <arg>fadi_nwvg@live.nl</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:21:23.243056" elapsed="0.042163"/>
+<status status="PASS" start="2025-05-15T16:13:27.290981" elapsed="0.041492"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:21:25.286262" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:29.335085" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:21:23.285361" elapsed="2.001382"/>
+<status status="PASS" start="2025-05-15T16:13:27.332604" elapsed="2.003066"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:25.288520" level="INFO">Typing text '632486475' into text field '//*[@id="input-candidate.phone-5"]'.</msg>
+<msg time="2025-05-15T16:13:29.338475" level="INFO">Typing text '632486475' into text field '//*[@id="input-candidate.phone-5"]'.</msg>
 <arg>//*[@id="input-candidate.phone-5"]</arg>
 <arg>632486475</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:21:25.287679" elapsed="0.078899"/>
+<status status="PASS" start="2025-05-15T16:13:29.337861" elapsed="0.074840"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:21:27.368684" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:31.413651" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:21:25.366730" elapsed="2.002531"/>
+<status status="PASS" start="2025-05-15T16:13:29.412843" elapsed="2.001355"/>
 </kw>
 <kw name="Scroll Element Into View" owner="SeleniumLibrary">
 <arg>//*[@id="input-candidate.cv-12"]</arg>
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2025-05-14T16:21:27.370415" elapsed="0.277809"/>
+<status status="PASS" start="2025-05-15T16:13:31.415300" elapsed="0.278394"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:21:29.651132" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:33.697076" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:21:27.649179" elapsed="2.002537"/>
+<status status="PASS" start="2025-05-15T16:13:31.694489" elapsed="2.003125"/>
 </kw>
 <kw name="Choose File" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:29.653698" level="INFO">Sending /Users/fadihaddad/Desktop/test.txt to browser.</msg>
+<msg time="2025-05-15T16:13:33.699537" level="INFO">Sending /Users/fadihaddad/Desktop/test.txt to browser.</msg>
 <arg>//*[@id="input-candidate.cv-12"]</arg>
 <arg>/Users/fadihaddad/Desktop/test.txt</arg>
 <doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:21:29.652775" elapsed="0.060919"/>
+<status status="PASS" start="2025-05-15T16:13:33.698640" elapsed="0.063385"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:21:31.715123" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:35.764774" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:21:29.713884" elapsed="2.001777"/>
+<status status="PASS" start="2025-05-15T16:13:33.762251" elapsed="2.003227"/>
 </kw>
 <kw name="Scroll Element Into View" owner="SeleniumLibrary">
 <arg>//*[@id="tabs--23--panel--1"]/form/div[4]/button</arg>
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
-<status status="PASS" start="2025-05-14T16:21:31.716514" elapsed="0.282923"/>
+<status status="PASS" start="2025-05-15T16:13:35.766519" elapsed="0.283349"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:21:34.002357" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:38.050669" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:21:32.000170" elapsed="2.002389"/>
+<status status="PASS" start="2025-05-15T16:13:36.050085" elapsed="2.001253"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:34.003237" level="INFO">Clicking element '//*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[1]/div/fieldset/div/div[1]/label/span[1]'.</msg>
+<msg time="2025-05-15T16:13:38.053106" level="INFO">Clicking element '//*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[1]/div/fieldset/div/div[1]/label/span[1]'.</msg>
 <arg>//*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[1]/div/fieldset/div/div[1]/label/span[1]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:21:34.002949" elapsed="0.049728"/>
+<status status="PASS" start="2025-05-15T16:13:38.052391" elapsed="0.059606"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:21:36.053773" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-05-15T16:13:40.114614" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:21:34.052819" elapsed="2.001677"/>
+<status status="PASS" start="2025-05-15T16:13:38.112155" elapsed="2.003001"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:36.056831" level="INFO">Clicking element '//*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[2]/div/fieldset/div/div[1]/label/span[1]'.</msg>
+<msg time="2025-05-15T16:13:40.117209" level="INFO">Clicking element '//*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[2]/div/fieldset/div/div[1]/label/span[1]'.</msg>
 <arg>//*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[2]/div/fieldset/div/div[1]/label/span[1]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:21:36.056116" elapsed="0.055918"/>
+<status status="PASS" start="2025-05-15T16:13:40.116248" elapsed="0.064214"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-14T16:21:36.112330" level="INFO">Clicking element '//*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[3]/div/fieldset/div/div[1]/label/span[1]'.</msg>
+<msg time="2025-05-15T16:13:40.180734" level="INFO">Clicking element '//*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[3]/div/fieldset/div/div[1]/label/span[1]'.</msg>
 <arg>//*[@id="tabs--23--panel--1"]/form/section[4]/fieldset/div/div[3]/div/fieldset/div/div[1]/label/span[1]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-14T16:21:36.112199" elapsed="0.034019"/>
+<status status="PASS" start="2025-05-15T16:13:40.180618" elapsed="0.032864"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-14T16:21:39.148088" level="INFO">Slept 3 seconds.</msg>
+<msg time="2025-05-15T16:13:43.215579" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-14T16:21:36.146362" elapsed="3.001896"/>
+<status status="PASS" start="2025-05-15T16:13:40.213621" elapsed="3.002375"/>
 </kw>
 <kw name="Close browser session" owner="Resource" type="TEARDOWN">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-05-14T16:21:39.149043" elapsed="0.097131"/>
+<status status="PASS" start="2025-05-15T16:13:43.218539" elapsed="0.087737"/>
 </kw>
-<status status="PASS" start="2025-05-14T16:21:39.148702" elapsed="0.097549"/>
+<status status="PASS" start="2025-05-15T16:13:43.217566" elapsed="0.088784"/>
 </kw>
 <doc>This test case checks the "Applying for a job" functionality</doc>
 <tag>Applying</tag>
-<status status="PASS" start="2025-05-14T16:20:32.335658" elapsed="66.910649"/>
+<status status="PASS" start="2025-05-15T16:13:03.050024" elapsed="40.256381"/>
 </test>
 <doc>Applying For A Job Functionality</doc>
-<status status="PASS" start="2025-05-14T16:20:32.270167" elapsed="66.976410"/>
+<status status="PASS" start="2025-05-15T16:13:02.362766" elapsed="40.943906"/>
 </suite>
 <statistics>
 <total>
