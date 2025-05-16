@@ -28,7 +28,7 @@ Verifying ability to apply for a job at Valori
            Run Keyword If    '${checkbox.text}' == 'Valori'    Select Checkbox    ${checkbox}
     END
 
-
+    Sleep                2s
     Click Button        Resultaten tonen
     Sleep               2s
     #Test automation engineer
